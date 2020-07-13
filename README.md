@@ -13,6 +13,7 @@ This schedule will be used to keep track of progress throughout the week and ali
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 2| Link to GitHub Pages / Early test of deployment and Collection of Typeface Google Fonts and Website Assets | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -87,11 +88,12 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Git / Demo Buttons | H | 1hr | 1.5hr | -hr|
 | Hamburger | H | 45 min | 1 hr | -hr|
 | Responsive | H | 3hr | 3.5hr | -hr|
+| Deployment| H | 6hr | 6.5hr | -hr|
 | Specialty Cards | L | 1hr | 1.5hr | -hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | -hr|
 | Footer | L | 1hr | 1.5hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 20.5 hrs| 27.75 hrs | -hrs |
+| Total | H | 26.5 hrs| 34.75 hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
