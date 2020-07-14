@@ -82,20 +82,21 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Desktop Menu Icon | H | 20 min | 30 min | -hr|
 | Hero Text Intro Section | H | 30 min | 45 min | -hr|
 | About Me Section | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 2.5hr | 3hr | -hr|
-| Project Titles | H | 1hr | 1.5hr | -hr|
+| Project Previews | H | 2.5hr | 3hr | 2.5hr|
+| Project Titles | H | 1hr | 1.5hr | .5hr|
 | Adding Contact Form | H | 2hr| 2.5hr | -hr |
-| Working with API | H | 3hrs| 2hr | -hr |
+| Working with API | H | 3hrs| 2hr | 1hr |
 | 5 Project Features Grid | H | 1hr | 1.5hr | -hr|
-| Git / Demo Buttons | H | 1hr | 1.5hr | -hr|
+| Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
 | Hamburger | H | 45 min | 1 hr | -hr|
-| Responsive | H | 3hr | 3.5hr | -hr|
-| Deployment| H | 6hr | 6.5hr | 1hr|
+| Responsive | H | 3hr | 3.5hr | .5hr|
+| Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 2hr|
+| Research | H | 10hr | 10hr | 1hr|
 | Specialty Cards | L | 1hr | 1.5hr | -hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | -hr|
 | Footer | L | 1hr | 1.5hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 26.5 hrs| 34.75 hrs | -hrs |
+| Total | H | 36.5 hrs| 44.75 hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
