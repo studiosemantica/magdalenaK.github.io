@@ -74,9 +74,11 @@ button {
     display:flex;
     flex-direction:row;
     justify-content:space-around;
+    border-style:none;
+    border-radius:5px;
     margin:15px auto;
     margin-top:5px;
-    padding:5px;
+    padding:6px;
 }
 
 
