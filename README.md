@@ -12,7 +12,7 @@ This schedule will be used to keep track of progress throughout the week and ali
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 2| Link to GitHub Pages / Early test of deployment and Collection of Typeface Google Fonts and Website Assets | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
