@@ -82,8 +82,8 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Desktop Menu Icon | H | 20 min | 30 min | -hr|
 | Hero Text Intro Section | H | 30 min | 45 min | -hr|
 | About Me Section | H | 1hr | 1.5hr | -hr|
-| Project Previews | H | 2.5hr | 3hr | -hr|
-| Project Titles | H | 1hr | 1.5hr | -hr|
+| Project Previews | H | 2.5hr | 3hr | 2.5hr|
+| Project Titles | H | 1hr | 1.5hr | .5hr|
 | Adding Contact Form | H | 2hr| 2.5hr | -hr |
 | Working with API | H | 3hrs| 2hr | 1hr |
 | 5 Project Features Grid | H | 1hr | 1.5hr | -hr|
