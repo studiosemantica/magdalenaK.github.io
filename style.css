@@ -1,12 +1,11 @@
 .project {
     display:flex;
     flex-direction:column;
-    justify-content:center;
     text-align:center;
-    margin:15px auto auto auto;
-    border:2px solid black;
+    margin:-5px auto auto auto;
+    /* border:2px solid black; */
     width:250px;
-    height:350px;
+    height:360px;
     background-color:white;
 
 
@@ -21,9 +20,10 @@
     justify-content:space-around;
     z-index:999;
     width:250px;
-    margin-bottom:100px;
+    margin-bottom:130px;
+    margin-top:0px;
     background-color:white;
-    height:80px;
+    height:90px;
 
 }
 
@@ -38,11 +38,11 @@ h2 {
     text-align:center;
     font-family:"Pragati Narrow";
     background-color:rgba(000, 000, 000, 0.2);
-    padding-top:40px;
-    padding-bottom:40px;
-    color:red;
+    padding-top:60px;
+    padding-bottom:60px;
+    color:white;
     z-index:999;
-    top:125px;
+    top:190px;
     left:0 auto;
     width:100%;
 
@@ -51,27 +51,11 @@ h2 {
 
 img {
     width: 250px;
-    height:175px;
+    height:160px;
     margin:10px auto;
 }
 
-button {
-    background-color:rgba(000, 000, 000, 0.2);
-    width:150px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    /* justify-content:space-between; */
-    margin:15px auto;
-}
 
-
-
-
-/* .fa {
-    width:60px;
-
-} */
 
 
  a {
@@ -84,25 +68,41 @@ button {
     justify-content:center;
     border:2px solid black;
 } */
+button {
+    background-color:rgba(000, 000, 000, 0.2);
+    width:150px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin:15px auto;
+    margin-top:5px;
+    padding:5px;
+}
+
+
+
 
 .list-group-item {
-    text-align:center;
-    width:100px;
+    text-align:left;
+    width:150px;
     font-size:25px;
     color:dimgrey;
+    margin-left:25px;
     /* border:2px solid black; */
 
     /* margin:auto; */
 
 }
 
-
 .small {
-    display:row;
+    
+    position:absolute;
     font-family:"Pragati Narrow";
     font-size:15px;
-    margin:5px;
-    padding:-15px 0px 0px 0px;
+    margin-left:6px;
+    margin-bottom:30px;
+    margin-top:-5px;
+    padding:10px 0px 20px 0px;
 
 }
 
