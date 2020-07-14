@@ -69,7 +69,7 @@ const app = (projects) => {
         // $div.append($('<h2>').text(project.title))
         $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
         $div.append($('<p>').addClass("description").text(project.description))
-        $div.append($('<button>').append($('<a>').addClass("list-group-item").attr('href', project.url).append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+        $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
 
         // <a class="list-group-item" href="#"><i class="fa fa-codepen" aria-hidden="true"></i></a>
         // $div.append($('<a>').attr('href', project.url).text("LINK >>"))
