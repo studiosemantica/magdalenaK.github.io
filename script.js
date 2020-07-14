@@ -63,8 +63,11 @@ const app = (projects) => {
     // creates a jQuery DOM element based on an individual project object
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass("project")
-        $div.append($('<h2>').text(project.title))
-        $div.append($('<img>').attr('src', project.image))
+        const $divOverlay = $('<div>').addClass("overlay")
+        const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
+        const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+        // $div.append($('<h2>').text(project.title))
+        $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<button>').append($('<a>').addClass("list-group-item").attr('href', project.url).append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
 
