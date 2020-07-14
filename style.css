@@ -1,0 +1,26 @@
+
+
+img {
+    width: 400px;
+}
+
+.project {
+    display:block;
+    margin:15px auto;
+    width:40%;
+    text-align:center;
+    background-color:grey;
+
+    
+    
+
+}
+
+button {
+    margin:15px auto;
+}
+
+h2 {
+    margin-top:140px;
+    text-align: center;
+}
