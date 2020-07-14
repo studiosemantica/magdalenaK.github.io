@@ -1,7 +1,7 @@
 # Project 1 Portfolio
 My Portfolio Site - Project 1 General Assembly
 
-- [studiosemantica.com](studiosemantica.com)
+- [studiosemantica.com] (studiosemantica.com)
 
 Magdalena Krzyzanowski
 
