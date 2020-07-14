@@ -1,7 +1,7 @@
 # Project 1 Portfolio
 My Portfolio Site - Project 1 General Assembly
 
-[Lets go to Quora](https://www.quora.com)
+[studiosemantica.com](https://studiosemantica.com)
 
 Magdalena Krzyzanowski
 
