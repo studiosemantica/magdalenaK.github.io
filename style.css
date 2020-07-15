@@ -16,23 +16,13 @@ nav {
     height:85px;
     margin: auto;
     display:flex;
-    background-color:lightgray;
+    /* background-color:lightgray; */
     
 }
 
 
 
-@media (min-width: 768px) { nav {
-    width:350px;
-    height:85px;
-    margin:0px 0px 0px 57%;
-    display:flex;
-    flex-direction:row;
-    justify-content:right;
-    background-color:lightgray;
-    
- }
-}
+
 
 h1 {
     font-size:40px;
@@ -43,15 +33,54 @@ h1 {
 
 }
 
-#dropDownArrow {
+.fa-bars {
+    display:block;
+    margin-top:24.5px;
+    font-size:24px;
+    color:rgb(123, 123, 123);
 }
 
 .fa-chevron-down {
+    display:none;
     margin-top:20px;
     font-size:30px;
-    color:darkgrey;
+    color:rgb(108, 108, 108);
  
 }
+
+@media (min-width: 768px) { 
+    .fa-chevron-down {
+        display:block;
+        margin-top:20px;
+        font-size:30px;
+        color:darkgrey;
+     
+    }
+
+    .fa-bars {
+        display:none;
+    }
+
+    nav {
+    width:350px;
+    height:85px;
+    margin:0px 0px 0px 57%;
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+    /* background-color:lightgray; */
+    
+ }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .nav-list {
+      display:none;
+    }
+  }
+
 .dropDownMenu {
     visibility:hidden;
 }
