@@ -16,9 +16,9 @@ This schedule will be used to keep track of progress throughout the week and ali
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 2| Link to Custom Domain / Early test of deployment and Collection of Typeface Google Fonts and Website Assets | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| Contact Form and Drop Down Menu Working | Incomplete
+|Day 5| MVP | Incomplete
 |Day 6| Present | Incomplete
 
 
@@ -77,10 +77,10 @@ For our first General Assembly project, we are creating portfolio websites to sh
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | 1.5hr|
+| Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | 2hr|
 | Drop Down Menu | H | 1hr | 1.5hr | -hr|
-| Title Section | H | 20 min | 30 min | -hr|
-| Desktop Menu Icon | H | 20 min | 30 min | -hr|
+| Title Section | H | 20 min | 30 min | 30hr|
+| Desktop Menu Icon | H | 20 min | 30 min | 30hr|
 | Hero Text Intro Section | H | 30 min | 45 min | -hr|
 | About Me Section | H | 1hr | 1.5hr | -hr|
 | Project Previews | H | 2.5hr | 3hr | 2.5hr|
@@ -89,8 +89,8 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Working with API | H | 3hrs| 2hr | 1hr |
 | 5 Project Features Grid | H | 1hr | 1.5hr | -hr|
 | Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
-| Hamburger | H | 45 min | 1 hr | -hr|
-| Responsive | H | 3hr | 3.5hr | .5hr|
+| Hamburger | H | 45 min | 1 hr | .25 hr|
+| Responsive | H | 3hr | 3.5hr | 1.5hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 3 hr|
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 2.5hr|
 | Specialty Cards | L | 1hr | 1.5hr | -hr|
