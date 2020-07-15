@@ -63,9 +63,14 @@ const app = (projects) => {
     // creates a jQuery DOM element based on an individual project object
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass("project")
-        const $divOverlay = $('<div>').addClass("overlay")
-        const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
+        //declare variable for transparent overlay div on project preview
         const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+         //declare variable for image div
+        const $divOverlay = $('<div>').addClass("overlay")
+        //declare variable for overlay text div on project preview
+        const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
+       
+        
         // $div.append($('<h2>').text(project.title))
         $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
         $div.append($('<p>').addClass("description").text(project.description))
