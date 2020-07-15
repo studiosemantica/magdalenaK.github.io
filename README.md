@@ -77,7 +77,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | -hr|
+| Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | 1hr|
 | Drop Down Menu | H | 1hr | 1.5hr | -hr|
 | Title Section | H | 20 min | 30 min | -hr|
 | Desktop Menu Icon | H | 20 min | 30 min | -hr|
