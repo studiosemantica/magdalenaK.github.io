@@ -3,30 +3,46 @@ body {
 }
 
 .maxSize {
+    min-width:350px;
+    max-width:1280px;
+    background-color:rgba(211, 211, 211, 0.2);
+    margin:0 auto;
 }
 
 nav {
+    width:800px;
+    margin: auto;
+    display:flex;
+    background-color:lightgray;
+    
 }
 
 h1 {
+    font-size:100px;
 }
 
 #dropDownArrow {
 }
 
 .dropDownMenu {
+    visibility:hidden;
 }
 
 li {
 }
 
 .column-section {
+    margin:0 auto;
+    min-width:150px;
+    max-width:800px;
+    border:2px solid gray;
 }
 
 #intro {
 }
 
 .sectionTitle{
+    visibility:hidden;
 }
 
 .slantedOnTopAbout {
