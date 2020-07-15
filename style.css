@@ -10,7 +10,8 @@ body {
 }
 
 nav {
-    width:800px;
+    width:350px;
+    height:85px;
     margin: auto;
     display:flex;
     background-color:lightgray;
@@ -18,7 +19,12 @@ nav {
 }
 
 h1 {
-    font-size:100px;
+    font-size:40px;
+    font-weight:200;
+    letter-spacing:-2px;
+    margin:0 auto;
+    padding-left:50px;
+
 }
 
 #dropDownArrow {
