@@ -30,6 +30,12 @@ h1 {
 #dropDownArrow {
 }
 
+.fa-chevron-down {
+    margin-top:20px;
+    font-size:30px;
+    color:darkgrey;
+ 
+}
 .dropDownMenu {
     visibility:hidden;
 }
