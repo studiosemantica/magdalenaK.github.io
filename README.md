@@ -77,6 +77,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 #### MVP
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
+| Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | 1hr|
 | Drop Down Menu | H | 1hr | 1.5hr | -hr|
 | Title Section | H | 20 min | 30 min | -hr|
 | Desktop Menu Icon | H | 20 min | 30 min | -hr|
@@ -96,7 +97,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Design Specialty Card Grid | L | 1hr | 1.5hr | -hr|
 | Footer | L | 1hr | 1.5hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 36.5 hrs| 44.75 hrs | -hrs |
+| Total | H | 39.5 hrs| 48.25 hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
