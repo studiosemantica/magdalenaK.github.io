@@ -104,7 +104,7 @@ const app = (projects) => {
 
     projects.forEach(project => {
         const $projectDiv = createProjectElement(project)
-        $('body').append($projectDiv)
+        $('#Projects').append($projectDiv)
     })
 
 }
