@@ -92,7 +92,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Hamburger | H | 45 min | 1 hr | .25 hr|
 | Responsive | H | 3hr | 3.5hr | 1.5hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 3 hr|
-| Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 2.5hr|
+| Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 3hr|
 | Specialty Cards | L | 1hr | 1.5hr | -hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | -hr|
 | Footer | L | 1hr | 1.5hr | -hr|
