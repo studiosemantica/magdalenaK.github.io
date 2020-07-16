@@ -345,7 +345,12 @@ h3 {
 }
 
 
-
+.bigDiv {
+    display:block;
+    margin:0 auto;
+    width:578px;
+    background-color:grey;
+}
 
 
 .overlay {

@@ -117,7 +117,7 @@ const desktop = (projects) => {
         const featuredProjectDiv = (project) => {
             const $bigDiv = $('<div>').addClass("bigDiv")
             //declare variable for transparent overlay div on project preview
-            const $imageBigDiv = $('<div>').addClass("imageBigDiv").append($('<img>').attr('src', project.image))
+            const $imageBigDiv = $('<div>').addClass("imageBigDiv").append($('<img>').attr('src', project.image).width('100%').height('100%'))
              //declare variable for image div
             const $divBigOverlay = $('<div>').addClass("bigOverlay")
             //declare variable for overlay text div on project preview
