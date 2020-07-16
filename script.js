@@ -1,5 +1,20 @@
+
+
+
+
 console.log($)
 
+$(document).ready(function() {
+	$("body").on('click', '.fa-bars', function() {
+		$("nav.dropDownMenu").toggleClass("dropDown");
+	});
+});
+
+$(document).ready(function() {
+	$("body").on('click', '.fa-chevron-down', function() {
+		$("nav.dropDownMenu").toggleClass("dropDown");
+	});
+});
 const url = 'https://spreadsheets.google.com/feeds/list/1E2ridB2TyMGdd5tduhDNsan5KZvByoGgD5jonASuTuI/od6/public/values?alt=json'
 
 // fetch(url)
@@ -37,7 +52,9 @@ const url = 'https://spreadsheets.google.com/feeds/list/1E2ridB2TyMGdd5tduhDNsan
 //             const $projectDiv = createProjectElement(project)
 //             $('body').append($projectDiv)
 //         })
-// }
+
+
+// }}
 
 fetch(url)  // starts the fetch process
     .then( response => response.json() )    // returns the JSON data as a JS object
@@ -82,9 +99,26 @@ const app = (projects) => {
     }
 
     // adds each project element to <body>
+
+
+
     projects.forEach(project => {
         const $projectDiv = createProjectElement(project)
         $('body').append($projectDiv)
     })
 
 }
+
+// function dropDown () {
+//     document.querySelector('.dropDownMenu').style.diplay = 'none';
+    
+//  };
+
+//  function sayHello() {
+//     console.log("Hello!");
+// }
+
+// document.querySelector('#bars').addEventListener('click', sayHello);
+
+// // document.querySelector('.fas\ fa-bars').onclick = dropDown();
+
