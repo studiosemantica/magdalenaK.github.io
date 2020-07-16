@@ -31,9 +31,19 @@ fetch(url)  // starts the fetch process
                 url: entry.gsx$url.$t
              }
          })
-         
-         app(projects)  // calls the application with your new projects array as argument
 
+         let mq = window.matchMedia( "(max-width: 400px)" );
+        if (mq.matches) {
+    // if window width is at less than 400 px then run the mobile jQuery function to layout and style elements 
+
+            mobile(projects)
+        }
+        else {
+            desktop(projects)
+    // if window width is greater than 400px then run the desktop jQuery function to layout and style elements
+        }
+         
+         
     })
 
 
@@ -41,7 +51,7 @@ fetch(url)  // starts the fetch process
 
 
 // all application logic is included inside the app() function    
-const app = (projects) => {
+const mobile = (projects) => {
 
     // creates a jQuery DOM element based on an individual project object
     const createProjectElement = (project) => {
@@ -63,18 +73,47 @@ const app = (projects) => {
         return $div
     }
 
-    // adds each project element to <body>
+    // adds each project element to <div id="Projects">
 
-
-    
-
-//     projects.forEach(project => {
+    projects.forEach(project => {
         
-//         const $projectDiv = createProjectElement(project)
-//         $('#Projects').append($projectDiv)
-//     })
+        const $projectDiv = createProjectElement(project)
+        $('#Projects').append($projectDiv)
+    })
 
-// }
+}
+
+
+
+
+
+
+// all application logic is included inside the app() function    
+const desktop = (projects) => {
+
+    // creates a jQuery DOM element based on an individual project object
+    const createProjectElement = (project) => {
+        const $div = $('<div>').addClass("project")
+        //declare variable for transparent overlay div on project preview
+        const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+         //declare variable for image div
+        const $divOverlay = $('<div>').addClass("overlay")
+        //declare variable for overlay text div on project preview
+        const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
+       
+        
+        // $div.append($('<h2>').text(project.title))
+        $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
+
+        $div.append($('<p>').addClass("description").text(project.description))
+        
+        $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+
+
+        return $div
+    }
+
+    // adds each project element to <body>
 
 
     projects.forEach((project,index) => {
@@ -90,4 +129,3 @@ const app = (projects) => {
     })
 
 }
-
