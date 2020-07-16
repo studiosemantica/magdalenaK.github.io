@@ -113,18 +113,41 @@ const desktop = (projects) => {
         return $div
     }
 
+        // creates a jQuery DOM element based on an individual project object
+        const featuredProjectDiv = (project) => {
+            const $bigDiv = $('<div>').addClass("bigDiv")
+            //declare variable for transparent overlay div on project preview
+            const $imageBigDiv = $('<div>').addClass("imageBigDiv").append($('<img>').attr('src', project.image))
+             //declare variable for image div
+            const $divBigOverlay = $('<div>').addClass("bigOverlay")
+            //declare variable for overlay text div on project preview
+            const $overlayBigText = $('<div>').addClass("overlayBigText").append($('<h1>').text(project.title))
+           
+            
+            // $div.append($('<h2>').text(project.title))
+            $bigDiv.append($($divBigOverlay).append($($overlayBigText).append($($imageBigDiv))))
+    
+            $bigDiv.append($('<p>').addClass("description").text(project.description))
+            
+            $bigDiv.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+    
+    
+            return $bigDiv
+        }
+
     // adds each project element to <body>
 
 
     projects.forEach((project,index) => {
         
         if (index === 0) {
-        const $projectDiv = createProjectElement(project)
-        $('#Projects').append($projectDiv)
+        const $bigFeatureDiv = featuredProjectDiv(project)
+        $('#Projects').append($bigFeatureDiv)
         }
 
         else {
-        console.log(index)
+        const $projectDiv = createProjectElement(project)
+        $('#Projects').append($projectDiv)
         }
     })
 
