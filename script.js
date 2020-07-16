@@ -142,12 +142,12 @@ const desktop = (projects) => {
         
         if (index === 0) {
         const $bigFeatureDiv = featuredProjectDiv(project)
-        $('#Projects').append($bigFeatureDiv)
+        $('#feature').append($bigFeatureDiv)
         }
 
         else {
         const $projectDiv = createProjectElement(project)
-        $('#Projects').append($projectDiv)
+        $('#desktop').append($projectDiv)
         }
     })
 

@@ -321,7 +321,12 @@ h3 {
 
 
 
-
+#desktop {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:650px;
+}
 
 
 .project {
@@ -336,11 +341,11 @@ h3 {
     overflow:hidden;
     /* border:2px solid black; */
 
-
-    
-    
-
 }
+
+
+
+
 
 .overlay {
     display:flex;
