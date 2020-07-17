@@ -79,9 +79,9 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | --- | :---: |  :---: | :---: | :---: |
 | Writing HTML and Basic CSS structure | H | 3hr | 3.5hr | 2hr|
 | Drop Down Menu | H | 1hr | 1.5hr | 1.10 hr|
-| Title Section | H | 20 min | 30 min | 30hr|
-| Desktop Menu Icon | H | 20 min | 30 min | 30hr|
-| Hero Text Intro Section | H | 30 min | 45 min | -hr|
+| Title Section | H | 20 min | 30 min | .5hr|
+| Desktop Menu Icon | H | 20 min | 30 min | .5hr|
+| Hero Text Intro Section | H | 30 min | 45 min | .25hr|
 | About Me Section | H | 1hr | 1.5hr | -hr|
 | Project Previews | H | 2.5hr | 3hr | 2.5hr|
 | Project Titles | H | 1hr | 1.5hr | .5hr|
