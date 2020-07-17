@@ -121,7 +121,7 @@ const desktop = (projects) => {
              //declare variable for image div
             const $divBigOverlay = $('<div>').addClass("bigOverlay")
             //declare variable for overlay text div on project preview
-            const $overlayBigText = $('<div>').addClass("overlayBigText").append($('<h1>').text(project.title))
+            const $overlayBigText = $('<div>').append($('<h1>').addClass("overlayBigText").text(project.title))
            
             
             // $div.append($('<h2>').text(project.title))
