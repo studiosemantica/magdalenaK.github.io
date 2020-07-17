@@ -268,7 +268,7 @@ margin-left:5px;
 }
 
 .slantedOnTopProjects {
-    background-color:black;
+    background-color:silver;
     height:20px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -278,19 +278,18 @@ margin-left:5px;
 
 .slantedOnBottomProjects {
     
-    background-color:pink;
-    margin-top:1000px;
+    background-color:silver;
+    margin-top:100px;
     margin-bottom:430px;
     height:10px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 /* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
 /* clip-path:  polygon(
     0 0,
     100% 0,
     100% 50%,
     0 calc(0% - 0px)); */
-
 
     clip-path:  polygon(
     0 0,
@@ -300,13 +299,13 @@ margin-left:5px;
   );
 }
 
-
-
-
 #projectsDiv {
+    height:1900px;
+    background-color:silver;
 }
 
 #Projects {
+    
 }
 
 
