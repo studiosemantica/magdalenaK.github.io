@@ -193,9 +193,23 @@ a {
 }
 
 #specialties {
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin:-25px auto auto auto;
+    width:250px;
+    height:360px;
+    background-color:black;
+    overflow:hidden; 
 }
+    /* /* overflow will allow to link all the links
+    overflow:hidden;
+} */
 
 .featureSquare {
+    display:block;
+    width:200px;
+    background-color:lightgray;
 }
 
 #design {
