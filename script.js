@@ -130,6 +130,8 @@ const desktop = (projects) => {
             $bigDiv.append($('<p>').addClass("description").text(project.description))
             
             $bigDiv.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+
+            
     
     
             return $bigDiv
