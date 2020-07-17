@@ -94,7 +94,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 4 hr|
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 5 hr|
 | Specialty Cards | L | 1hr | 1.5hr | -hr|
-| Design Specialty Card Grid | L | 1hr | 1.5hr | -hr|
+| Design Specialty Card Grid | L | 1hr | 1.5hr | 1hr|
 | Footer | L | 1hr | 1.5hr | -hr|
 | Social Media Icons | L | 1hr | -hr | -hr|
 | Total | H | 39.5 hrs| 48.25 hrs | -hrs |
