@@ -87,7 +87,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Project Titles | H | 1hr | 1.5hr | .5hr|
 | Adding Contact Form | H | 2hr| 2.5hr | 3 hr |
 | Working with API | H | 3hrs| 2hr | 1hr |
-| 5 Project Features Grid | H | 1hr | 1.5hr | 2 hr|
+| 5 Project Features Grid | H | 1hr | 1.5hr | 2.75 hr|
 | Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
 | Hamburger | H | 45 min | 1 hr | .25 hr|
 | Responsive | H | 3hr | 3.5hr | 2.25 hr|
