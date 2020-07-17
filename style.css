@@ -171,7 +171,6 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     position:relative;
     z-index:2;
     display:block;
-    margin:-150px auto;
     min-width:150px;
     background-color:grey;
     height:600px;
@@ -184,11 +183,16 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 
 /* ///////////ABOUT SECTION CSS */
 .slantTopWrap {
-    filter: drop-shadow(3px 6px 3px rgba(50, 50, 0, 1));
+    filter: drop-shadow(0px -9px 10px rgba(0, 0, 0, 0.314));
 }
+
+.slantBottomWrap {
+    filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.314));
+}
+
 .slantedOnTopAbout {
-    margin-top:-400px;
-    background-color:lightgrey;
+    margin-top:-200px;
+    background-color:rgb(203, 203, 203);
     height:20px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -197,7 +201,10 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 }
 
 #about {
-    background-color:lightgrey;
+    background-color:rgb(203, 203, 203);
+    z-index:3;
+    height:400px;
+    margin-top:-150px;
 
 }
 
@@ -214,8 +221,8 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 }
 .slantedOnBottomAbout {
     
-    background-color:lightgrey;
-    margin-top:30px;
+    background-color:rgb(203, 203, 203);
+    margin-top:-2px;
     height:20px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -235,9 +242,10 @@ clip-path:  polygon(
     display:flex;
     flex-direction:column;
     text-align:center;
-    margin:125px auto auto auto;
+    margin:-95px auto 250px auto;
+    padding-top:140px;
     width:275px;
-    height:1200px;
+    height:2000px;
     overflow:hidden; 
 }
 
@@ -301,18 +309,19 @@ margin-left:5px;
 }
 
 .slantedOnTopProjects {
-    background-color:silver;
+    background-color:rgb(243, 243, 243);
     height:20px;
     padding-top: 100px;
     padding-bottom: 100px;
+    margin:-120px;
 /* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
     clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
 }
 
 .slantedOnBottomProjects {
     
-    background-color:silver;
-    margin-top:100px;
+    background-color:rgb(243, 243, 243);
+    margin-top:-2px;
     margin-bottom:430px;
     height:10px;
     padding-top: 100px;
@@ -334,7 +343,7 @@ margin-left:5px;
 
 #projectsDiv {
     height:1900px;
-    background-color:silver;
+    background-color:rgb(243, 243, 243);
 }
 
 #Projects {
@@ -457,15 +466,16 @@ p {
 
 }   
 
-}
-
-
 #skillsDiv {
-height:800px;
+    
+    height:800px;
+    
+    background-color:white;
+    margin-top:-400px;
+    }
 
-background-color:white;
-margin-bottom:-80px;
-}
+
+
 
 .skillsTitleSection {
 }
@@ -488,7 +498,7 @@ margin-bottom:-80px;
     justify-content:space-between;
     align-items:center;
     flex-wrap:wrap;
-    margin:-160px auto;
+    margin:0px auto;
     /* margin-top:0px;
     margin-bottom:100px; */
 
@@ -507,18 +517,17 @@ margin-bottom:-80px;
     flex-direction:column;
     align-items:center;
     margin: 0 auto;
-    padding-bottom:-80px;
     /* margin: 0 auto; */
 }
 
 #contact {
     z-index:2;
     background-color:white;
-    margin-top:150px;
-    padding-top:120px;
-    padding-bottom:-340px;
+    margin-top:0px;
+    padding-top:0px;
+    padding-bottom:-40px;
     box-shadow: 0px -5px 20px 0px rgba(50, 50, 50, 0.2);
-    margin-bottom:-320px;
+    margin-bottom:0px;
 }
 
 
@@ -528,6 +537,7 @@ margin-bottom:-80px;
     background-color:black;
     color:white;
     text-align:center;
+    margin-top:70px;
     
 }
 
@@ -538,6 +548,7 @@ margin-bottom:-80px;
 
     border:2px solid black;
     padding:15px;
+    margin-bottom:0px;
     
 }
 
@@ -552,7 +563,7 @@ label {
     padding:10px;
     margin-bottom:50px;
     border:none;
-    background-color:rgb(69, 69, 69);
+    background-color:rgb(67, 67, 67);
     font-family:"Pragati Narrow";
     font-size:18px;
     color:white;
@@ -569,15 +580,17 @@ label {
 }
 
 #submit {
+
 }
 
 #footer {
+
     display:flex;
     flex-direction:column;
-    
+    background-color:black;
     justify-content:center;
-    height:300px;
-    margin-top:300px;
+    height:180px;
+    margin-top:-20px;
     z-index:0;
 }
 
@@ -586,7 +599,7 @@ label {
     font-size:30px;
     text-align:40px;
     
-    color:black;
+    color:rgb(71, 71, 71);
     font-size:40px;
     font-weight:200;
     letter-spacing:-2px;
@@ -596,7 +609,9 @@ label {
 }
 #footerDate {
 display:block;
-margin:0 auto;
+margin:5px auto;
+font-weight:200;
+color:rgb(71, 71, 71);
 }
 
 
