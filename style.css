@@ -207,6 +207,8 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 .slantedOnBottomAbout {
 }
 
+
+
 #specialties {
     display:flex;
     flex-direction:column;
@@ -216,9 +218,36 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     height:1200px;
     overflow:hidden; 
 }
-    /* /* overflow will allow to link all the links
-    overflow:hidden;
-} */
+
+
+@media (min-width: 750px) { 
+
+
+    .column-section {
+        display:block;
+        margin:116px auto;
+        background-color:white;
+        height:900px;
+        max-width:700px;
+    
+        -webkit-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    -moz-box-shadow:    0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    
+            }
+
+    #specialties {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:600px;
+        height:600px;
+        padding-top:140px;
+
+    }
+            
+     
+    }
 
 .featureSquare {
     display:block;
