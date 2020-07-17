@@ -231,7 +231,9 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 }
 
 .alignLeft {
-margin-left:-150px;
+text-align:left;
+margin-left:5px;
+
 }
 
 
@@ -247,6 +249,13 @@ margin-left:-150px;
 
 #imagery {
 }
+.fa-sitemap {
+    color:grey;
+    margin-top:60px;
+    font-size:130px;
+
+}
+
 
 .fa-magic{
     color:grey;
