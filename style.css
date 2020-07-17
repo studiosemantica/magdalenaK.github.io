@@ -10,20 +10,12 @@ body {
     margin:0 auto;
 }
 
-
-
 nav {
     width:350px;
     height:85px;
     margin: auto;
     display:flex;
-    /* background-color:lightgray; */
-    
 }
-
-
-
-
 
 h1 {
     font-size:40px;
@@ -31,7 +23,6 @@ h1 {
     letter-spacing:-2px;
     margin:0 auto;
     padding-left:50px;
-
 }
 
 .fa-bars {
@@ -43,61 +34,14 @@ h1 {
 }
 
 
-
-
-/* .fa-bars:hover {
-    z-index:999;
-    display:block;
-    margin-top:24.5px;
-    font-size:24px;
-    color:rgb(123, 123, 123);
-} */
-
-
-
 .fa-chevron-down {
     display:none;
     margin-top:20px;
     font-size:30px;
     color:rgb(108, 108, 108);
- 
 }
 
-@media (min-width: 767px) { 
-    .fa-chevron-down {
-        display:block;
-        margin-top:20px;
-        font-size:30px;
-        color:darkgrey;
-     
-    }
-
-    .fa-bars {
-        display:none;
-
-    }
-
-    nav {
-    width:350px;
-    height:85px;
-    margin:0px 0px 0px 50%;
-    display:flex;
-    flex-direction:row;
-    justify-content:right;
-    /* background-color:lightgray; */
-    
- }
-
-
-}
-
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-    .nav-list {
-      display:none;
-    }
-  }
-
-  .dropDownMenu {
+.dropDownMenu {
     
     display:none;
     position:absolute;
@@ -110,19 +54,14 @@ h1 {
     /* background-color:white; */
     /* border:2px solid black; */
     list-style-type:none;
-
 }
-
 
 
 .dropDown {
-    
     display:block;
-
 }
 
 .dropDownDesktop {
-    
     display:block;
     position:absolute;
     visibility:visible;
@@ -135,11 +74,7 @@ h1 {
     /* background-color:white; */
     /* border:2px solid black; */
     list-style-type:none;
-
 }
-
-
-
 
 li {
     font-size:20px; 
@@ -148,7 +83,6 @@ li {
     border:2px solid black;
     border-bottom:0px solid black;
     padding:8px;   
-    
 }
 
 .dropDownMenu :nth-child(5) {
@@ -178,7 +112,6 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
         }
 
 
-
 #intro {
     background-color:black;
 }
@@ -200,7 +133,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     line-height:1.2em;
 }
 
-
+/* //////////////FULL WIDTH SECTION MOBILE */
 .fullWidthContainer {
     position:relative;
     z-index:2;
@@ -212,10 +145,14 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     max-width:100%;
 }
 
+
+
+
+
+/* ///////////ABOUT SECTION CSS */
 .slantTopWrap {
     filter: drop-shadow(3px 6px 3px rgba(50, 50, 0, 1));
 }
-
 .slantedOnTopAbout {
     margin-top:-400px;
     background-color:lightgrey;
@@ -224,12 +161,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     padding-bottom: 100px;
 /* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
     clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
-
-
 }
-
-
-
 
 #about {
     background-color:lightgrey;
@@ -264,6 +196,8 @@ clip-path:  polygon(
 }
 
 
+
+/* /////////SPECIALTIES SECTION MOBILE */
 #specialties {
     display:flex;
     flex-direction:column;
@@ -275,53 +209,7 @@ clip-path:  polygon(
 }
 
 
-@media (min-width: 750px) { 
 
-
-    .column-section {
-        z-index:0;
-        display:block;
-        margin:116px auto;
-        background-color:white;
-        height:900px;
-        max-width:700px;
-    
-        -webkit-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.18);
-    -moz-box-shadow:    0px 0px 6px 5px rgba(50, 50, 50, 0.18);
-    box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
-    
-            }
-
-    #specialties {
-        z-index:0;
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        width:600px;
-        height:600px;
-        padding-top:240px;
-        margin-top:-250px;
-        margin-bottom:800px;
-
-    }
-    .fullWidthContainer {
-        
-        z-index:2;
-        display:block;
-        margin:-150px auto;
-        min-width:150px;
-        background-color:grey;
-        height:600px;
-        max-width:100%;
-    }
-    
-
-    #footer {
-        z-index:0;
-    }
-            
-     
-    }
 
 .featureSquare {
     display:block;
@@ -423,7 +311,10 @@ margin-left:5px;
 
 
 #skillsDiv {
-    background-color:white;
+height:800px;
+
+background-color:white;
+margin-bottom:-80px;
 }
 
 .skillsTitleSection {
@@ -438,6 +329,25 @@ margin-left:5px;
 #imagerySkills {
 }
 
+#socialIcons {
+    width:300px;
+    height:450px;
+    z-index:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    margin:-160px auto;
+    /* margin-top:0px;
+    margin-bottom:100px; */
+
+}
+
+.icon {
+    color:rgb(81, 81, 81);
+    font-size:80px;
+}
 
 
 .contactForm {
@@ -445,34 +355,18 @@ margin-left:5px;
     z-index:2;
     display:flex;
     flex-direction:column;
-    margin-top:20px;
-    margin-left:9%;
-    margin-bottom:40px;
+    align-items:center;
+    margin: 0 auto;
     /* margin: 0 auto; */
 }
 
 #contact {
     z-index:2;
-    background-color:grey;
+    background-color:white;
     margin-top: 70px;
     padding-top:55px;
-    box-shadow:         0px -5px 18px 0px rgba(50, 50, 50, 0.08);
+    box-shadow:         0px -5px 20px 0px rgba(50, 50, 50, 0.2);
 }
-
-.contactUs {
-}
-
-
-
-@media (min-width: 767px) { 
-    /* .contactForm {
-        max-width:500px;
-        display:flex;
-        flex-direction:column;
-        margin:0 auto;
-    } */
-
-
 
 
 .contactUs {
@@ -513,29 +407,6 @@ label {
 .boxes {
     padding:10px;
     border:2px solid black;
-}
-
-#socialIcons {
-    width:500px;
-    z-index:0;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    margin:0 auto;
-    
-
-
-    /* margin-top:0px;
-    margin-bottom:100px; */
-    
-
-}
-
-.icon {
-    color:rgb(101, 101, 101);
-    font-size:70px;
-    
 }
 
 
@@ -721,5 +592,139 @@ button {
 
 }
 
+
+
+/* //////////   TABLE AND DESKTOP MEDIA QUERY //////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY //////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY //////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY //////// */
+@media (min-width: 767px) { 
+
+    .fa-chevron-down {
+        display:block;
+        margin-top:20px;
+        font-size:30px;
+        color:darkgrey;
+     
+    }
+
+    .fa-bars {
+        display:none;
+
+    }
+
+    nav {
+    width:350px;
+    height:85px;
+    margin:0px 0px 0px 50%;
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+    /* background-color:lightgray; */
+    
+ }
+
+
+    .column-section {
+        z-index:0;
+        display:block;
+        margin:116px auto;
+        background-color:white;
+        height:900px;
+        max-width:700px;
+    
+        -webkit-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    -moz-box-shadow:    0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
+    
+            }
+
+    .fullWidthContainer {
+        
+        z-index:2;
+        display:block;
+        margin:-150px auto;
+        min-width:150px;
+        background-color:grey;
+        height:600px;
+        max-width:100%;
+    }
+    
+
+    #specialties {
+        z-index:0;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        width:600px;
+        height:600px;
+        padding-top:240px;
+        margin-top:-250px;
+        margin-bottom:800px;
+
+    }
+
+    #skillsDiv {
+        height:800px;
+        
+        background-color:white;
+        margin-bottom:-80px;
+        }
+        
+        .skillsTitleSection {
+        }
+        
+        #designSkills {
+        }
+        
+        #developmentSkills {
+        }
+        
+        #imagerySkills {
+        }
+        
+        #socialIcons {
+            width:600px;
+            height:450px;
+            z-index:0;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:center;
+            flex-wrap:wrap;
+            margin:-160px auto;
+            /* margin-top:0px;
+            margin-bottom:100px; */
+        
+        }
+        
+        .icon {
+            color:rgb(81, 81, 81);
+            font-size:80px;
+        }
+
+        .contactForm {
+            width:600px;   
+            z-index:2;
+           margin: 0 auto;
+        }
+
+        .form {
+            padding:30px;
+          
+          
+        }
+
+    #footer {
+        z-index:0;
+    }
+            
+     
+    }
+
+/* //////////   TABLE AND DESKTOP MEDIA QUERY END //////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY END//////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY END//////// */
+/* //////////   TABLE AND DESKTOP MEDIA QUERY END//////// */
 
 
