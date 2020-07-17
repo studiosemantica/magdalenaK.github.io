@@ -249,13 +249,26 @@ margin-left:5px;
 
 #imagery {
 }
+
+.fa-pencil-square-o {
+    color:grey;
+    margin-top:40px;
+    margin-left:25px;
+    margin-bottom:-10px;
+    font-size:160px;
+} 
+
 .fa-sitemap {
     color:grey;
     margin-top:60px;
     font-size:130px;
-
 }
 
+.fa-code {
+    color:grey;
+    margin-top:50px;
+    font-size:140px;
+}
 
 .fa-magic{
     color:grey;
