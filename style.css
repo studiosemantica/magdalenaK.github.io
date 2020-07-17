@@ -210,6 +210,13 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 
 
 .slantedOnTopAbout {
+    margin-top:-400px;
+    background-color:black;
+    height:20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+/* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
 }
 
 .fullWidthContainer {
@@ -228,8 +235,20 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 
 
 .slantedOnBottomAbout {
+    
+    background-color:black;
+    margin-top:30px;
+    height:20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+/* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
+clip-path:  polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 100px)
+  );
 }
-
 
 
 #specialties {
@@ -344,14 +363,39 @@ margin-left:5px;
     font-size:130px;
 }
 
-.slantedonTopProjects {
+.slantedOnTopProjects {
+    background-color:black;
+    height:20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+/* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
+    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
 }
+
+.slantedOnBottomProjects {
+    
+    background-color:pink;
+    margin-top:0px;
+    height:10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+/* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
+clip-path:  polygon(
+    0 0,
+    100% 0,
+    100% 50%,
+    0 calc(0% - 0px));
+}
+
+
+
 
 #projectsDiv {
 }
 
 #Projects {
 }
+
 
 #skillsDiv {
 }
