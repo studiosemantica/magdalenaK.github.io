@@ -183,6 +183,8 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     margin:0 auto;
     min-width:150px;
     height:200px;
+    z-index:1;
+    
 }
 
 #intro {
@@ -211,15 +213,14 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 }
 
 .fullWidthContainer {
-    z-index:1000;
+    position:relative;
+    z-index:2;
     display:block;
     margin:-150px auto;
     min-width:150px;
     background-color:grey;
     height:600px;
     max-width:100%;
-
-
 }
 
 #about {
@@ -246,6 +247,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 
 
     .column-section {
+        z-index:0;
         display:block;
         margin:116px auto;
         background-color:white;
@@ -259,6 +261,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
             }
 
     #specialties {
+        z-index:0;
         display:flex;
         flex-direction:row;
         flex-wrap:wrap;
@@ -266,6 +269,20 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
         height:600px;
         padding-top:140px;
 
+    }
+    .fullWidthContainer {
+        
+        z-index:2;
+        display:block;
+        margin:-150px auto;
+        min-width:150px;
+        background-color:grey;
+        height:600px;
+        max-width:100%;
+    }
+
+    #footer {
+        z-index:0;
     }
             
      
@@ -354,18 +371,9 @@ margin-left:5px;
 #socialIcons {
 }
 
-#contact {
-    background-color:white;
-    margin-top: 70px;
-    padding-top:55px;
-    box-shadow:         0px -5px 18px 0px rgba(50, 50, 50, 0.08);
-}
-
-.contact {
-}
-
 .contactForm {
     width:275px;
+    z-index:2;
     display:flex;
     flex-direction:column;
     margin-top:20px;
@@ -374,6 +382,19 @@ margin-left:5px;
     /* margin: 0 auto; */
 }
 
+#contact {
+    z-index:2;
+    background-color:grey;
+    margin-top: 70px;
+    padding-top:55px;
+    box-shadow:         0px -5px 18px 0px rgba(50, 50, 50, 0.08);
+}
+
+.contactUs {
+}
+
+
+
 @media (min-width: 767px) { 
     /* .contactForm {
         max-width:500px;
@@ -381,6 +402,7 @@ margin-left:5px;
         flex-direction:column;
         margin:0 auto;
     } */
+
 
 
 }
@@ -431,6 +453,7 @@ label {
 }
 
 #footer {
+    z-index:0;
 }
 
 h3 {
