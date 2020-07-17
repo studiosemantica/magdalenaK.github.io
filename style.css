@@ -423,6 +423,7 @@ margin-left:5px;
 
 
 #skillsDiv {
+    background-color:white;
 }
 
 .skillsTitleSection {
@@ -437,9 +438,7 @@ margin-left:5px;
 #imagerySkills {
 }
 
-#socialIcons {
-    
-}
+
 
 .contactForm {
     width:275px;
@@ -475,7 +474,7 @@ margin-left:5px;
 
 
 
-}
+
 .contactUs {
     margin-left:74%;
     width:100px;
@@ -517,13 +516,14 @@ label {
 }
 
 #socialIcons {
-    width:600px;
+    width:500px;
     z-index:0;
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     flex-wrap:wrap;
     margin:0 auto;
+    
 
 
     /* margin-top:0px;
@@ -532,10 +532,12 @@ label {
 
 }
 
-.fa {
-    color:darkgrey;
-    font-size:80px;
+.icon {
+    color:rgb(101, 101, 101);
+    font-size:70px;
+    
 }
+
 
 .textField {
 }
