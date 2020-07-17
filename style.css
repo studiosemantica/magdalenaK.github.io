@@ -197,8 +197,8 @@ a {
     flex-direction:column;
     text-align:center;
     margin:-25px auto auto auto;
-    width:250px;
-    height:360px;
+    width:275px;
+    height:1200px;
     background-color:black;
     overflow:hidden; 
 }
@@ -208,8 +208,11 @@ a {
 
 .featureSquare {
     display:block;
-    width:200px;
+    height:250px;
+    width:250px;
     background-color:lightgray;
+    margin:25px auto;
+
 }
 
 #design {
