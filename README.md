@@ -82,7 +82,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Title Section | H | 20 min | 30 min | .5hr|
 | Desktop Menu Icon | H | 20 min | 30 min | .5hr|
 | Hero Text Intro Section | H | 30 min | 45 min | .25hr|
-| About Me Section | H | 1hr | 1.5hr | -hr|
+| About Me Section | H | 1hr | 1.5hr | 2hr|
 | Project Previews | H | 2.5hr | 3hr | 2.5hr|
 | Project Titles | H | 1hr | 1.5hr | .5hr|
 | Adding Contact Form | H | 2hr| 2.5hr | 3 hr |
