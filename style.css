@@ -747,7 +747,8 @@ button {
         display:block;
         margin:116px auto;
         background-color:white;
-        height:900px;
+        height:1100px;
+        margin-bottom:-100px;
         max-width:700px;
     
         -webkit-box-shadow: 0px 0px 6px 5px rgba(50, 50, 50, 0.18);
@@ -766,6 +767,30 @@ button {
         height:600px;
         max-width:100%;
     }
+
+
+    #aboutText {
+        color:black;
+        text-align:center;
+        font-size:20px;
+        padding:5px 270px 25px 270px;
+        line-height:1.2em;
+    }
+    .slantedOnBottomAbout {
+    
+        background-color:rgb(203, 203, 203);
+        margin-top:100px;
+        height:20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    /* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
+    clip-path:  polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 100px)
+      );
+    }
     
 
     #specialties {
@@ -781,12 +806,34 @@ button {
 
     }
 
+    #projectsDiv {
+        height:1600px;
+        background-color:rgb(243, 243, 243);
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+
     #skillsDiv {
+        
+        text-align:center;
+    
         height:800px;
         
         background-color:white;
         margin-bottom:-80px;
         }
+
+        .desktopViewSkills {
+            width:900px;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            margin:0 auto;
+            margin-bottom:140px;
+            
+        }
+        
+   
         
         .skillsTitleSection {
         }
@@ -823,7 +870,7 @@ button {
         .contactForm {
             width:600px;   
             z-index:2;
-           margin: 0 auto;
+           margin: 0300px auto;
         }
 
         .form {
@@ -833,6 +880,11 @@ button {
         }
 
     #footer {
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        margin-top:0px;
+        margin-bottom:-200px;
         z-index:0;
     }
             
