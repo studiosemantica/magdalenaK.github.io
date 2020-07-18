@@ -88,15 +88,15 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Adding Contact Form | H | 2hr| 2.5hr | 3 hr |
 | Working with API | H | 3hrs| 2hr | 1hr |
 | 5 Project Features Grid | H | 1hr | 1.5hr | 2.75 hr|
-| Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
+| Git / Demo Buttons | H | 1hr | 1.5hr | 2.5hr|
 | Hamburger | H | 45 min | 1 hr | .25 hr|
-| Responsive | H | 3hr | 3.5hr | 5 hr|
+| Responsive | H | 3hr | 3.5hr | 6 hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 4 hr|
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 5 hr|
 | Specialty Cards | L | 1hr | 1.5hr | 1.5hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | 1hr|
 | Footer | L | 1hr | 1.5hr | 2hr|
-| Social Media Icons | L | 1hr | -hr | 2.5hr|
+| Social Media Icons | L | 1hr | -hr | 3hr|
 | Total | H | 39.5 hrs| 48.25 hrs | 38.85 hrs |
 
 #### PostMVP
@@ -124,4 +124,4 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- This section wi;; list of all major issues encountered and their resolution.
+ This section will list of all major issues encountered and their resolution.
