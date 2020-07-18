@@ -104,6 +104,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | --- | :---: |  :---: | :---: | :---: |
 | Technical Skills Section + Cards | H | 3hr | 3.5hr | -hr|
 | Animated Site Title | M | 1hr | 1.5hr | -hr|
+| Animated Drop Down Menu | M | 1hr | 1.5hr | .75hr|
 | Make Select Sections have Diagonal Dividers | M | 2hr | 2.5hr | 2hr|
 | Animated Section Backgrounds | L | 2hr | 2.5hr | -hr|
 | Resume Button | L | 1hr | 1.5hr | -hr|
