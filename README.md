@@ -88,7 +88,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Adding Contact Form | H | 2hr| 2.5hr | 3 hr |
 | Working with API | H | 3hrs| 2hr | 1hr |
 | 5 Project Features Grid | H | 1hr | 1.5hr | 2.75 hr|
-| Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
+| Git / Demo Buttons | H | 1hr | 1.5hr | 2.5hr|
 | Hamburger | H | 45 min | 1 hr | .25 hr|
 | Responsive | H | 3hr | 3.5hr | 6 hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 4 hr|
@@ -124,4 +124,4 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- This section wi;; list of all major issues encountered and their resolution.
+ This section will list of all major issues encountered and their resolution.
