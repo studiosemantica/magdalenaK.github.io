@@ -90,7 +90,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | 5 Project Features Grid | H | 1hr | 1.5hr | 2.75 hr|
 | Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
 | Hamburger | H | 45 min | 1 hr | .25 hr|
-| Responsive | H | 3hr | 3.5hr | 2.75 hr|
+| Responsive | H | 3hr | 3.5hr | 3.75 hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 4 hr|
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 5 hr|
 | Specialty Cards | L | 1hr | 1.5hr | 1.5hr|
