@@ -82,7 +82,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Title Section | H | 20 min | 30 min | .5hr|
 | Desktop Menu Icon | H | 20 min | 30 min | .5hr|
 | Hero Text Intro Section | H | 30 min | 45 min | .25hr|
-| About Me Section | H | 1hr | 1.5hr | -hr|
+| About Me Section | H | 1hr | 1.5hr | 2hr|
 | Project Previews | H | 2.5hr | 3hr | 2.5hr|
 | Project Titles | H | 1hr | 1.5hr | .5hr|
 | Adding Contact Form | H | 2hr| 2.5hr | 3 hr |
@@ -90,21 +90,22 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | 5 Project Features Grid | H | 1hr | 1.5hr | 2.75 hr|
 | Git / Demo Buttons | H | 1hr | 1.5hr | 1.5hr|
 | Hamburger | H | 45 min | 1 hr | .25 hr|
-| Responsive | H | 3hr | 3.5hr | 2.75 hr|
+| Responsive | H | 3hr | 3.5hr | 5 hr|
 | Deployment(Domain Mapping, Troubleshooting, testing) | H | 6hr | 6.5hr | 4 hr|
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 5 hr|
 | Specialty Cards | L | 1hr | 1.5hr | 1.5hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | 1hr|
-| Footer | L | 1hr | 1.5hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 39.5 hrs| 48.25 hrs | -hrs |
+| Footer | L | 1hr | 1.5hr | 2hr|
+| Social Media Icons | L | 1hr | -hr | 2.5hr|
+| Total | H | 39.5 hrs| 48.25 hrs | 38.85 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Technical Skills Section + Cards | H | 3hr | 3.5hr | -hr|
 | Animated Site Title | M | 1hr | 1.5hr | -hr|
-| Make Select Sections have Diagonal Dividers | M | 2hr | 2.5hr | -hr|
+| Animated Drop Down Menu | M | 1hr | 1.5hr | .75hr|
+| Make Select Sections have Diagonal Dividers | M | 2hr | 2.5hr | 2hr|
 | Animated Section Backgrounds | L | 2hr | 2.5hr | -hr|
 | Resume Button | L | 1hr | 1.5hr | -hr|
 | Total | H | 9hrs| 11.5hrs | -hrs |
