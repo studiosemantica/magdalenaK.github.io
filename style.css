@@ -457,6 +457,12 @@ h2 {
 
 }
 
+.overlayText {
+    align-items:flex-start;
+    margin-top:0px;
+
+}
+
 
 
 
@@ -775,7 +781,11 @@ button {
         font-size:20px;
         padding:5px 270px 25px 270px;
         line-height:1.2em;
+
+
     }
+
+    
     .slantedOnBottomAbout {
     
         background-color:rgb(203, 203, 203);
@@ -832,7 +842,55 @@ button {
             margin-bottom:140px;
             
         }
+
+        .desktopButtons {
+            background-color:black;
+            margin:30px auto;
+            margin-left:-90px;
+            margin-bottom:100px;
+            width:750px;
+
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+        }
+
+      
+
+        .list-group-item2 {
+            text-align:left;
+            width:150px;
+            font-size:30px;
+            color:lightgrey;
+            margin-top:5px;
+            margin-left:20px;
+            /* border:2px solid black; */
         
+            /* margin:auto; */
+        
+        }
+
+        .small2 {
+            
+                position:absolute;
+                font-family:"Pragati Narrow";
+                color:white;
+                font-size:18px;
+                margin-left:8px;
+                margin-bottom:30px;
+                margin-top:0px;
+                padding:10px 0px 20px 0px;
+            
+            }
+            .description {
+                margin:10% auto;
+                margin-bottom:2%;
+            }
+        
+            .description2 {
+                font-size:22px;
+
+            }
    
         
         .skillsTitleSection {
