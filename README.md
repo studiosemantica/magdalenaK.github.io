@@ -95,7 +95,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Research (Referencing libraries, codes, and writing pseudocode) | H | 10hr | 10hr | 5 hr|
 | Specialty Cards | L | 1hr | 1.5hr | 1.5hr|
 | Design Specialty Card Grid | L | 1hr | 1.5hr | 1hr|
-| Footer | L | 1hr | 1.5hr | -hr|
+| Footer | L | 1hr | 1.5hr | 2hr|
 | Social Media Icons | L | 1hr | -hr | 2.5hr|
 | Total | H | 39.5 hrs| 48.25 hrs | -hrs |
 
