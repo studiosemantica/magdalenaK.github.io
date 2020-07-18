@@ -97,7 +97,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Design Specialty Card Grid | L | 1hr | 1.5hr | 1hr|
 | Footer | L | 1hr | 1.5hr | 2hr|
 | Social Media Icons | L | 1hr | -hr | 2.5hr|
-| Total | H | 39.5 hrs| 48.25 hrs | -hrs |
+| Total | H | 39.5 hrs| 48.25 hrs | 38.85 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
