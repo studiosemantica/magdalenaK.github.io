@@ -510,7 +510,14 @@ p {
 
 .icon {
     color:rgb(81, 81, 81);
-    font-size:80px;
+    font-size:70px;
+}
+
+a {
+    color:rgb(59, 59, 59);
+    
+    width:200px;
+    text-decoration:none;
 }
 
 
