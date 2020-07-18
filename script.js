@@ -122,14 +122,20 @@ const desktop = (projects) => {
             const $divBigOverlay = $('<div>').addClass("bigOverlay")
             //declare variable for overlay text div on project preview
             const $overlayBigText = $('<div>').append($('<h1>').addClass("overlayBigText").text(project.title))
+
+            const $buttonDiv = $('<div>').addClass("desktopButtons")
            
             
             // $div.append($('<h2>').text(project.title))
             $bigDiv.append($($divBigOverlay).append($($overlayBigText).append($($imageBigDiv))))
     
-            $bigDiv.append($('<p>').addClass("description").text(project.description))
+            $bigDiv.append($('<p>').addClass("description2").text(project.description))
+
+            $bigDiv.append($($buttonDiv))
             
-            $bigDiv.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+            $buttonDiv.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item2").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small2").text('Live Demo')))))
+
+            $buttonDiv.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item2").append($('<i>').addClass("fa fa-github").append($('<a>').addClass("small2").text('GitHub Repo')))))
 
             
     
