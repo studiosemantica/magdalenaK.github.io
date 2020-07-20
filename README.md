@@ -119,19 +119,40 @@ https://ga-students.slack.com/archives/G017CL81YD7/p1594663469010400
 HOW TO STYLE GOOGLE FORMS:
 https://blog.webjeda.com/google-form-customize/
 
+//I researched this topic as it allowed for me to experiment with running certain jQuery functions depending on screen size / media queries that were checked in Javascript. 
 HOW TO USE MEDIA QUERIES IN JAVASCRIPT:
 https://stackoverflow.com/questions/31511001/is-there-a-javascript-equivalent-to-using-media-query
 
-//This code allowed for me to experiment with running certain jQuery functions depending on screen size / media queries that were checked in Javascript. 
+ICONS:
+-FONTAWESOME V.5
+-Icon8
+
+FONTS:
+-Google Fonts
+
+
 
 ## Code Snippet
 
-This section will include a brief code snippet of functionality that I am proud of an a brief description.  
+For the follow piece of code, I created a function that performed the logic of applying particular template style to each Project JSON object I was pulling in, separating the first in the list to always display in an enlarged feature format when in Desktop view and the rest to display in a flex grid underneath the main project preview. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+    // for desktop view: for each project in the array
+    projects.forEach((project,index) => {
+        //if the project in the array is the first one (Index 0) 
+        // then append the project to the template I have made for the big feature Project
+        if (index === 0) {
+        const $bigFeatureDiv = featuredProjectDiv(project)
+        $('#feature').append($bigFeatureDiv)
+        }
+
+        //if the project is in the rest of the array
+        // then append the project to the grid template I have made for the rest of the features
+        else {
+        const $projectDiv = createProjectElement(project)
+        $('#desktop').append($projectDiv)
+        }
+    })
 ```
 
 ## Issues and Resolutions
