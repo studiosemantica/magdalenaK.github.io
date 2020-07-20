@@ -32,7 +32,7 @@ fetch(url)  // starts the fetch process
              }
          })
 
-         let mq = window.matchMedia( "(max-width: 400px)" );
+         let mq = window.matchMedia( "(max-width: 375px)" );
         if (mq.matches) {
     // if window width is at less than 400 px then run the mobile jQuery function to layout and style elements 
 

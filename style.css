@@ -444,7 +444,7 @@ h2 {
     position:relative;
     text-align:center;
     
-    background-color:rgba(158, 163, 188, 0.494);
+    background-color:rgba(151, 151, 151, 0.331);
     padding-top:60px;
     padding-bottom:60px;
     color:rgb(249, 249, 249);
@@ -827,9 +827,14 @@ button {
 
     }
 
+    #desktopColumn {
+        margin-top:-120px;
+
+    }
+
     #projectsDiv {
         z-index:4;
-        height:2000px;
+        height:1800px;
         background-color:rgb(243, 243, 243);
         margin-top:0px;
         margin-bottom:0px;
