@@ -102,7 +102,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Technical Skills Section + Cards | H | 3hr | 3.5hr | 2hr|
+| Technical Skills Section + Cards | H | 3hr | 3.5hr | 3.5hr|
 | Animated Site Title | M | 1hr | 1.5hr | -hr|
 | Animated Drop Down Menu | M | 1hr | 1.5hr | .75hr|
 | Make Select Sections have Diagonal Dividers | M | 2hr | 2.5hr | 2hr|
@@ -111,7 +111,18 @@ For our first General Assembly project, we are creating portfolio websites to sh
 | Total | H | 9hrs| 11.5hrs | -hrs |
 
 ## Additional Libraries
- This section will list all supporting libraries and thier role in the project. 
+The following resources/Libraries were referenced in order to create the listed elements.
+
+DROP DOWN MENU:
+https://ga-students.slack.com/archives/G017CL81YD7/p1594663469010400
+
+HOW TO STYLE GOOGLE FORMS:
+https://blog.webjeda.com/google-form-customize/
+
+HOW TO USE MEDIA QUERIES IN JAVASCRIPT:
+https://stackoverflow.com/questions/31511001/is-there-a-javascript-equivalent-to-using-media-query
+
+//This code allowed for me to experiment with running certain jQuery functions depending on screen size / media queries that were checked in Javascript. 
 
 ## Code Snippet
 

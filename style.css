@@ -143,16 +143,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
     margin: 0px auto;
 }
 
-/* #intro:hover {
-    margin-top: 14px;
-    margin-bottom: 10px;
-    transition: 1s;
-    
-    background-color:black;
-    height:800px;
-    transform: translate(-30px, --50px) ;
-  
-} */
+
 
 .sectionTitle {
     color:white;
@@ -345,7 +336,6 @@ margin-left:5px;
     padding-top: 100px;
     padding-bottom: 100px;
     margin:-130px auto;
-/* -webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px)); */
     clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
 }
 
@@ -392,13 +382,8 @@ margin-left:5px;
     margin:-25px auto auto auto;
     width:578px;
     height:660px;
-    /* background-color:white; */
-    /* overflow will allow to link all the links*/
     overflow:hidden;
-    /* border:2px solid black; */
 
- 
-    /* background-color:grey; */
 }
 
 .imageBigDiv { 
@@ -410,7 +395,6 @@ margin-left:5px;
 .overlayBigText {
     position:relative;
     text-align:center;
-    
     background-color:rgba(000, 000, 000, 0.2);
     padding-top:170px;
     padding-bottom:170px;
@@ -575,8 +559,7 @@ box-shadow:         0px 0px 8px 2px rgba(50, 50, 50, 0.32);
     flex-wrap:wrap;
     margin:200px auto;
     margin-bottom:-400px;
-    /* margin-top:0px;
-    margin-bottom:100px; */
+
 
 }
 
@@ -745,6 +728,10 @@ button {
     margin-top:-5px;
     padding:10px 0px 20px 0px;
 
+}
+#footerText{
+    text-align:center;
+    margin-left:-40px;
 }
 
 
@@ -991,12 +978,17 @@ button {
         }
 
     #footer {
+        
         display:flex;
         flex-direction:column;
         text-align:center;
         margin-top:0px;
         margin-bottom:-200px;
         z-index:0;
+    }
+    #footerText{
+        text-align:center;
+        margin-left:-40px;
     }
             
      

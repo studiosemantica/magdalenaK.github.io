@@ -91,27 +91,27 @@ const mobile = (projects) => {
 // all application logic is included inside the app() function    
 const desktop = (projects) => {
 
-    // creates a jQuery DOM element based on an individual project object
-    const createProjectElement = (project) => {
-        const $div = $('<div>').addClass("project")
-        //declare variable for transparent overlay div on project preview
-        const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
-         //declare variable for image div
-        const $divOverlay = $('<div>').addClass("overlay")
-        //declare variable for overlay text div on project preview
-        const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
-       
+        // creates a jQuery DOM element based on an individual project object
+        const createProjectElement = (project) => {
+            const $div = $('<div>').addClass("project")
+            //declare variable for transparent overlay div on project preview
+            const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+            //declare variable for image div
+            const $divOverlay = $('<div>').addClass("overlay")
+            //declare variable for overlay text div on project preview
+            const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
         
-        // $div.append($('<h2>').text(project.title))
-        $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
+            
+            // append divOverlay, overlayText and imageDiv onto Div and rest of content to appropriate divs for the following 7 lines
+            $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
 
-        $div.append($('<p>').addClass("description").text(project.description))
-        
-        $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
+            $div.append($('<p>').addClass("description").text(project.description))
+            
+            $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
 
-
-        return $div
-    }
+            //returns the amalgamated div
+            return $div
+            }
 
         // creates a jQuery DOM element based on an individual project object
         const featuredProjectDiv = (project) => {
@@ -122,11 +122,11 @@ const desktop = (projects) => {
             const $divBigOverlay = $('<div>').addClass("bigOverlay")
             //declare variable for overlay text div on project preview
             const $overlayBigText = $('<div>').append($('<h1>').addClass("overlayBigText").text(project.title))
-
+            //declare variable for the Desktop view buttons
             const $buttonDiv = $('<div>').addClass("desktopButtons")
            
             
-            // $div.append($('<h2>').text(project.title))
+            // append divBigOverlay, overlayBigText and imageBigDiv onto bigDiv and rest of content to appropriate divs for the following ten lines
             $bigDiv.append($($divBigOverlay).append($($overlayBigText).append($($imageBigDiv))))
     
             $bigDiv.append($('<p>').addClass("description2").text(project.description))
@@ -139,20 +139,23 @@ const desktop = (projects) => {
 
             
     
-    
+            //returns the amalgamated div
             return $bigDiv
         }
 
-    // adds each project element to <body>
+    
 
-
+    // for desktop view: for each project in the array
     projects.forEach((project,index) => {
-        
+        //if the project in the array is the first one (Index 0) 
+        // then append the project to the template I have made for the big feature Project
         if (index === 0) {
         const $bigFeatureDiv = featuredProjectDiv(project)
         $('#feature').append($bigFeatureDiv)
         }
 
+        //if the project is in the rest of the array
+        // then append the project to the grid template I have made for the rest of the features
         else {
         const $projectDiv = createProjectElement(project)
         $('#desktop').append($projectDiv)
