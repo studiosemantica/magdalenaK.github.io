@@ -537,17 +537,18 @@ box-shadow:         0px 0px 8px 2px rgba(50, 50, 50, 0.32);
         justify-content:space-around;
         align-items:center;
         flex-wrap:wrap;
+        padding:11px;
     }
 
     
 
-.ninetysix {
-    margin:0px;
-    display:block;
-    width:96px;
-    height:96px;
-    
-}
+    .fiftySix {
+        margin:10px;
+        display:block;
+        width:56px;
+        height:56px;
+        
+    }
 /* 
 #designSkills {
     display:flex;
@@ -939,7 +940,13 @@ button {
             align-items:center;
             flex-wrap:wrap;
         }
-    
+        .fiftySix {
+            margin:10px;
+            display:block;
+            width:56px;
+            height:56px;
+            
+        }
         
         #designSkills {
         }
