@@ -123,10 +123,10 @@ a {
 
 .column-section {
     display:block;
-    margin:0 auto;
+    margin:-150px auto;
     min-width:150px;
     background-color:white;
-    height:1500px;
+    height:1700px;
     max-width:300px;
     
 
@@ -140,6 +140,7 @@ box-shadow:         0px 0px 6px 5px rgba(50, 50, 50, 0.18);
 #intro {
     background-color:black;
     height:600px;
+    margin: 0px auto;
 }
 
 /* #intro:hover {
@@ -265,20 +266,16 @@ clip-path:  polygon(
 
 
 /* /////////SPECIALTIES SECTION MOBILE */
-
-
-
-#desktopColumn {
+#specialties {
     display:flex;
     flex-direction:column;
     text-align:center;
-    margin:-100px auto 0px auto;
-    padding-top:0px;
+    margin:-95px auto 250px auto;
+    padding-top:140px;
     width:275px;
-    height:1600px;
+    height:2000px;
     overflow:hidden; 
 }
-
 
 
 .featureSquare {
@@ -290,6 +287,8 @@ clip-path:  polygon(
     border-radius:7px;
 
 }
+
+
 
 .alignLeft {
 text-align:left;
@@ -495,6 +494,7 @@ img {
 }
 
 p {
+    text-align:center;
     padding:10px;
     line-height:1.1em;
     margin-bottom:-2px;
@@ -503,44 +503,59 @@ p {
 
 .skillsCard {
     width:250px;
-    height:350px;
+    height:325px;
     background-color:white;
     display:block;
     margin:100px auto;
+    padding:1px;
+    border-radius:3px;
     -webkit-box-shadow: 0px 0px 8px 2px rgba(50, 50, 50, 0.32);
-    -moz-box-shadow:    0px 0px 8px 2px rgba(50, 50, 50, 0.32);
-    box-shadow:         0px 0px 8px 2px rgba(50, 50, 50, 0.32);
+-moz-box-shadow:    0px 0px 8px 2px rgba(50, 50, 50, 0.32);
+box-shadow:         0px 0px 8px 2px rgba(50, 50, 50, 0.32);
 }
+
 
 #skillsDiv {
     
     z-index:0;
-    height:2550px;
+    height:2450px;
     background-color:white;
     margin-top:-530px;
     margin-bottom:0px;
     }
 
-
-
-
-.skillsTitleSection {
+.skillTitle {
+    background-color:rgb(231, 231, 231);
+    margin:3px;
+    text-align:left;
 }
 
+
+    .skillsTitleSection {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+        flex-wrap:wrap;
+    }
+
+    
+
 .ninetysix {
+    margin:0px;
     display:block;
     width:96px;
     height:96px;
     
 }
-
+/* 
 #designSkills {
     display:flex;
     flex-direction:column;
     justify-content: space-around;
     align-items:center;
     width:250px;
-}
+} */
 
 #developmentSkills {
 }
@@ -835,7 +850,6 @@ button {
     #desktopColumn {
         margin-top:-120px;
 
-
     }
 
     #projectsDiv {
@@ -850,7 +864,7 @@ button {
         
         text-align:center;
         z-index: 1;
-        height:1000px;
+        height:1200px;
         background-color:white;
         margin-bottom:-400px;
 
@@ -916,8 +930,16 @@ button {
             }
    
         
+
+
         .skillsTitleSection {
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            align-items:center;
+            flex-wrap:wrap;
         }
+    
         
         #designSkills {
         }
@@ -937,7 +959,7 @@ button {
             justify-content:space-between;
             align-items:center;
             flex-wrap:wrap;
-            margin:-160px auto;
+            margin:-100px auto;
             /* margin-top:0px;
             margin-bottom:100px; */
         
