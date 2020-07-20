@@ -18,7 +18,7 @@ This schedule will be used to keep track of progress throughout the week and ali
 |Day 2| Link to Custom Domain / Early test of deployment and Collection of Typeface Google Fonts and Website Assets | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| Contact Form and Drop Down Menu Working | Complete
-|Day 5| MVP | Incomplete
+|Day 5| MVP | Complete
 |Day 6| Present | Incomplete
 
 
@@ -102,7 +102,7 @@ For our first General Assembly project, we are creating portfolio websites to sh
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Technical Skills Section + Cards | H | 3hr | 3.5hr | -hr|
+| Technical Skills Section + Cards | H | 3hr | 3.5hr | 2hr|
 | Animated Site Title | M | 1hr | 1.5hr | -hr|
 | Animated Drop Down Menu | M | 1hr | 1.5hr | .75hr|
 | Make Select Sections have Diagonal Dividers | M | 2hr | 2.5hr | 2hr|
