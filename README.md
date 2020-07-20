@@ -19,7 +19,7 @@ This schedule will be used to keep track of progress throughout the week and ali
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| Contact Form and Drop Down Menu Working | Complete
 |Day 5| MVP | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 
 ## Project Description
