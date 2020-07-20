@@ -34,13 +34,13 @@ fetch(url)  // starts the fetch process
 
          let mq = window.matchMedia( "(max-width: 375px)" );
         if (mq.matches) {
-    // if window width is at less than 400 px then run the mobile jQuery function to layout and style elements 
+    // if window width is at less than 375 px then run the mobile jQuery function to layout and style elements 
 
             mobile(projects)
         }
         else {
             desktop(projects)
-    // if window width is greater than 400px then run the desktop jQuery function to layout and style elements
+    // if window width is greater than 375px then run the desktop jQuery function to layout and style elements
         }
          
          
@@ -50,7 +50,6 @@ fetch(url)  // starts the fetch process
 
 
 
-// all application logic is included inside the app() function    
 const mobile = (projects) => {
 
     // creates a jQuery DOM element based on an individual project object
@@ -69,7 +68,7 @@ const mobile = (projects) => {
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
 
-
+        // returns the amalgamated div
         return $div
     }
 
@@ -87,8 +86,6 @@ const mobile = (projects) => {
 
 
 
-
-// all application logic is included inside the app() function    
 const desktop = (projects) => {
 
         // creates a jQuery DOM element based on an individual project object
