@@ -1,7 +1,5 @@
 
 
-
-
 console.log($)
 
 $(document).ready(function() {
@@ -56,7 +54,10 @@ const mobile = (projects) => {
     const createProjectElement = (project) => {
         const $div = $('<div>').addClass("project")
         //declare variable for transparent overlay div on project preview
-        const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+
+
+        const $imageDiv = $('<div>').addClass("project-image").attr('data-title', project.title).append($('<img>').attr('src', project.image))
+        // const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
          //declare variable for image div
         const $divOverlay = $('<div>').addClass("overlay")
         //declare variable for overlay text div on project preview
@@ -64,7 +65,7 @@ const mobile = (projects) => {
        
         
         // $div.append($('<h2>').text(project.title))
-        $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
+        $div.append($($imageDiv))
         $div.append($('<p>').addClass("description").text(project.description))
         $div.append($('<button>').append($('<a>').attr('href', project.url).addClass("list-group-item").append($('<i>').addClass("fa fa-codepen").append($('<a>').addClass("small").text('Live Demo')))))
 
@@ -92,15 +93,17 @@ const desktop = (projects) => {
         const createProjectElement = (project) => {
             const $div = $('<div>').addClass("project")
             //declare variable for transparent overlay div on project preview
-            const $imageDiv = $('<div>').addClass("imageDiv").append($('<img>').attr('src', project.image))
+            const $imageDiv = $('<div>').addClass("project-image").attr('data-title', project.title).append($('<img>').attr('src', project.image))
             //declare variable for image div
-            const $divOverlay = $('<div>').addClass("overlay")
+            // const $divOverlay = $('<div>').addClass("overlay")
             //declare variable for overlay text div on project preview
-            const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
+            // const $overlayText = $('<div>').addClass("overlayText").append($('<h2>').text(project.title))
         
             
             // append divOverlay, overlayText and imageDiv onto Div and rest of content to appropriate divs for the following 7 lines
-            $div.append($($divOverlay).append($($overlayText).append($($imageDiv))))
+            $div.append($($imageDiv))
+            // append($($divOverlay).append($($overlayText).append($
+                // ($imageDiv)
 
             $div.append($('<p>').addClass("description").text(project.description))
             
@@ -114,7 +117,9 @@ const desktop = (projects) => {
         const featuredProjectDiv = (project) => {
             const $bigDiv = $('<div>').addClass("bigDiv")
             //declare variable for transparent overlay div on project preview
-            const $imageBigDiv = $('<div>').addClass("imageBigDiv").append($('<img>').attr('src', project.image).width('100%').height('100%'))
+            // const $imageBigDiv = $('<div>').addClass("imageBigDiv").append($('<img>').attr('src', project.image).width('100%').height('100%'))
+
+            const $imageBigDiv = $('<div>').addClass("big-project-image").attr('data-title', project.title).append($('<img>').attr('src', project.image))
              //declare variable for image div
             const $divBigOverlay = $('<div>').addClass("bigOverlay")
             //declare variable for overlay text div on project preview
@@ -124,7 +129,7 @@ const desktop = (projects) => {
            
             
             // append divBigOverlay, overlayBigText and imageBigDiv onto bigDiv and rest of content to appropriate divs for the following ten lines
-            $bigDiv.append($($divBigOverlay).append($($overlayBigText).append($($imageBigDiv))))
+            $bigDiv.append($($imageBigDiv))
     
             $bigDiv.append($('<p>').addClass("description2").text(project.description))
 
